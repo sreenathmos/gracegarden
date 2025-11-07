@@ -2,7 +2,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 
-const TestimonialsSection = () => {
+function TestimonialsSection() {
   const testimonials = [
     {
       name: "Juliet",
@@ -14,7 +14,7 @@ const TestimonialsSection = () => {
     {
       name: "Shaji vamadevan",
       relation: "CEO VST",
-      content: "I am so happy to hear this wonderful news from you. Take this opportunity to wish you all the very best in your maiden and bold step. May God give you all tbe courage and strength to take this new venture to it's pinnacle of sucess. May you and the team continue to grow from this venture. My prayers are always with you dear.🎊👏👏👏👍🙏",
+      content: "I am so happy to hear this wonderful news from you. Take this opportunity to wish you all the very best in your maiden and bold step. May God give you all the courage and strength to take this new venture to it's pinnacle of success. May you and the team continue to grow from this venture. My prayers are always with you dear.🎊👏👏👏👍🙏",
       rating: 5,
       location: "Bangalore"
     },
@@ -30,6 +30,40 @@ const TestimonialsSection = () => {
   return (
     <section className="py-20 bg-white" id="testimonials">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Trust Indicators */}
+        <div className="mb-16 text-center animate-fade-in">
+          <div className="grid grid-cols-3 gap-8">
+            <div className="col-span-3 md:col-span-2 bg-sage-100 rounded-lg p-6">
+              <div className="space-y-4">
+                <div className="text-sage-700 text-left text-lg leading-relaxed">
+                  <br></br>
+                  Our model is simple and transparent. You pay a refundable deposit, a monthly service charge and an additional 
+                  fee for an extra person. This covers your rent, food, nursing, and housekeeping. 
+                  Electricity will be charged on actuals. The deposit is refundable to you or your nominee.
+                </div>
+                <div className="text-sage-700 text-left mt-4 text-lg leading-relaxed">
+                  {/* <h3 className="text-xl font-semibold text-sage-900 mb-3">Lifestyle</h3> */}
+                  Grace Garden isn’t just a residence — it’s a community built on compassion, dignity, and peace of mind. You live independently, cared for with warmth and respect, while your investment remains safe and refundable.
+                </div>
+              </div>
+            </div>
+            <div className="col-span-3 md:col-span-1 bg-sage-100 rounded-lg p-6 flex flex-col justify-center h-full">
+              <div className="text-sage-900 text-left">
+                <h3 className="text-xl font-semibold text-sage-900 mb-4">Accommodation Options</h3>
+                <ul className="space-y-2 list-none">
+                  <li>1. Shared Room</li>
+                  <li>2. Single Occupancy</li>
+                  <li>3. Couple Stay</li>
+                  <li>4. Deluxe Room</li>
+                  <li>5. 2BHK Option</li>
+                  <br></br>
+                  * Shared/Full Time Personal Caregiver available at an extra cost
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-sage-900 mb-6">
@@ -71,30 +105,9 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        {/* Trust Indicators */}
-        <div className="mt-16 text-center animate-fade-in">
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-            {/* <div className="bg-sage-100 rounded-lg p-6">
-              <div className="text-3xl font-bold text-sage-900 mb-2">40+</div>
-              <div className="text-sage-700">Years Experience</div>
-            </div> */}
-            <div className="bg-sage-100 rounded-lg p-6">
-              <div className="text-3xl font-bold text-sage-900 mb-2">24/7</div>
-              <div className="text-sage-700">Medical Care</div>
-            </div>
-            <div className="bg-sage-100 rounded-lg p-6">
-              <div className="text-3xl font-bold text-sage-900 mb-2">100%</div>
-              <div className="text-sage-700">Home Cooked Food</div>
-            </div>
-            <div className="bg-sage-100 rounded-lg p-6">
-              <div className="text-3xl font-bold text-sage-900 mb-2">5★</div>
-              <div className="text-sage-700">Family Rating</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
-};
+}
 
 export default TestimonialsSection;

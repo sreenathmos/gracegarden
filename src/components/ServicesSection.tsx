@@ -1,5 +1,4 @@
-
-import { Heart, Shield, Utensils, Music, MapPin, Stethoscope } from "lucide-react";
+import { Heart, Shield, Utensils, Music, MapPin, Home } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const ServicesSection = () => {
@@ -30,9 +29,9 @@ const ServicesSection = () => {
       description: "Dedicated caregivers provide personalized attention and support for daily activities."
     },
     {
-      icon: Stethoscope,
-      title: "Health Monitoring",
-      description: "Regular health check-ups, medication management, and physiotherapy as needed."
+      icon: Home,
+      title: "Comfortable Living",
+      description: "Fully furnished 2BHK homes designed for safety, comfort, and a true sense of belonging."
     }
   ];
 
@@ -50,13 +49,20 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-sage-900 mb-6">
+          {/* <h2 className="text-4xl md:text-5xl font-serif font-bold text-sage-900 mb-6">
             Comprehensive Care Services
-          </h2>
-          <p className="text-xl text-sage-700 max-w-3xl mx-auto leading-relaxed">
-            We provide holistic care that nurtures the body, mind, and spirit. 
-            Every service is designed with love, dignity, and respect.
-          </p>
+          </h2> */}
+          <div className="space-y-6">
+            <p className="text-xl text-sage-700 max-w-3xl mx-auto leading-relaxed">
+              We offer fully furnished 2BHK homes with all essential services. 
+              Daily nutritious food, housekeeping, Wi-Fi, 24x7 nursing, 
+              and regular doctor visits under one simple monthly plan.
+            </p>
+
+            <p className="text-xl text-sage-700 max-w-3xl mx-auto leading-relaxed">
+              Our model is simple and transparent. You pay a refundable deposit, a monthly service charge and an additional fee for an extra person. This covers your rent, food, nursing, and housekeeping. Electricity will be charged on actuals. The deposit is refundable to you or your nominee.
+            </p>
+          </div>
         </div>
 
         {/* Services Grid */}

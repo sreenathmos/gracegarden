@@ -4,7 +4,7 @@ import { Phone, Calendar, FileText } from "lucide-react";
 const HeroSection = () => {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-start overflow-hidden pt-32"
       id="home"
     >
       {/* Background Image with Overlay */}
@@ -14,22 +14,24 @@ const HeroSection = () => {
           alt="Happy elderly couple in nature"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-sage-900/70 via-sage-800/50 to-transparent"></div>
+        {/* Darker overlay for readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-sage-900/85 via-sage-800/60 to-sage-700/40"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
+          {/* <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
             Grace Garden
           </h1>
           <p className="text-2xl md:text-3xl text-warmBeige-100 mb-4 font-light">
             Where Care Meets Calm
-          </p>
-          <p className="text-lg md:text-xl text-warmBeige-200 mb-12 leading-relaxed max-w-2xl">
-            Experience premium eldercare in the serene hills of Wayanad, Kerala.
-            Where every day is filled with dignity, comfort, and the warmth of
-            home.
+          </p> */}
+
+          <p className="text-lg md:text-xl text-warmBeige-50 mb-12 leading-relaxed max-w-2xl drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)]">
+            A peaceful senior living community and care home located in the scenic hills of Wayanad,
+            designed for those who wish to live a relaxed, worry-free, and dignified life surrounded 
+            by nature, care, and like-minded people.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up">
@@ -52,10 +54,7 @@ const HeroSection = () => {
                 Request a Call
               </Button>
             </a>
-            <a
-              href="
-            https://drive.google.com/file/d/1E_7gSo1QlgR4--tQ7WkwRsE9z6eJ_N7I/view"
-            >
+            <a href="https://drive.google.com/file/d/1E_7gSo1QlgR4--tQ7WkwRsE9z6eJ_N7I/view">
               <Button
                 size="lg"
                 variant="outline"
