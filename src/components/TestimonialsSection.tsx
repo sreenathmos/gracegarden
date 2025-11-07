@@ -37,9 +37,9 @@ function TestimonialsSection() {
               <div className="space-y-4">
                 <div className="text-sage-700 text-left text-lg leading-relaxed">
                   <br></br>
-                  Our model is simple and transparent. You pay a refundable deposit, a monthly service charge and an additional 
-                  fee for an extra person. This covers your rent, food, nursing, and housekeeping. 
-                  Electricity will be charged on actuals. The deposit is refundable to you or your nominee.
+                  Residents enjoy a holistic lifestyle, morning walks, Indoor/Outdoor games physiotherapy, 
+                  fresh meals, reading, gardening, group activities, and festival celebrations all within a 
+                  secure gated environment with CCTV monitoring, on-site caretaker family, and emergency tie-ups with nearby hospitals.
                 </div>
                 <div className="text-sage-700 text-left mt-4 text-lg leading-relaxed">
                   {/* <h3 className="text-xl font-semibold text-sage-900 mb-3">Lifestyle</h3> */}
