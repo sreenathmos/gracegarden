@@ -6,7 +6,7 @@ const ServicesSection = () => {
     {
       icon: Shield,
       title: "24/7 Medical Care",
-      description: "Round-the-clock nursing care and regular doctor visits ensure your loved one's health and wellbeing."
+      description: "Round-the-clock nursing care and regular doctor visits ensure your loved one's health and wellbeing.."
     },
     {
       icon: Utensils,
