@@ -54,7 +54,7 @@ const ServicesSection = () => {
           </h2> */}
           <div className="space-y-6">
             <p className="text-xl text-sage-700 max-w-3xl mx-auto leading-relaxed">
-              We offer fully furnished 2BHK homes with all essential services. 
+              We offer fully furnished 2BHK homes with all essential care. 
               Daily nutritious food, housekeeping, Wi-Fi, 24x7 nursing, 
               and regular doctor visits under one simple monthly plan.
             </p>
@@ -105,6 +105,7 @@ const ServicesSection = () => {
             ))}
           </div>
         </div>
+      
       </div>
     </section>
   );
