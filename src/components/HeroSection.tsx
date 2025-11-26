@@ -54,7 +54,7 @@ const HeroSection = () => {
                 Request a Call
               </Button>
             </a>
-            <a href="https://drive.google.com/file/d/1E_7gSo1QlgR4--tQ7WkwRsE9z6eJ_N7I/view">
+            <a href="/gracegarden.pdf" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
                 variant="outline"

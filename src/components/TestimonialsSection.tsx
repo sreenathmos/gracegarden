@@ -30,46 +30,14 @@ function TestimonialsSection() {
   return (
     <section className="py-20 bg-white" id="testimonials">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Trust Indicators */}
-        <div className="mb-16 text-center animate-fade-in">
-          <div className="grid grid-cols-3 gap-8">
-            <div className="col-span-3 md:col-span-2 bg-sage-100 rounded-lg p-6">
-              <div className="space-y-4">
-                <div className="text-sage-700 text-left text-lg leading-relaxed">
-                  <br></br>
-                  Residents enjoy a holistic lifestyle, morning walks, Indoor/Outdoor games physiotherapy, 
-                  fresh meals, reading, gardening, group activities, and festival celebrations all within a 
-                  secure gated environment with CCTV monitoring, on-site caretaker family, and emergency tie-ups with nearby hospitals.
-                </div>
-                <div className="text-sage-700 text-left mt-4 text-lg leading-relaxed">
-                  {/* <h3 className="text-xl font-semibold text-sage-900 mb-3">Lifestyle</h3> */}
-                  Grace Garden isn’t just a residence — it’s a community built on compassion, dignity, and peace of mind. You live independently, cared for with warmth and respect, while your investment remains safe and refundable.
-                </div>
-              </div>
-            </div>
-            <div className="col-span-3 md:col-span-1 bg-sage-100 rounded-lg p-6 flex flex-col justify-center h-full">
-              <div className="text-sage-900 text-left">
-                <h3 className="text-xl font-semibold text-sage-900 mb-4">Accommodation Options</h3>
-                <ul className="space-y-2 list-none">
-                  <li>1. Shared Room</li>
-                  <li>2. Single Occupancy</li>
-                  <li>3. Couple Stay</li>
-                  <li>4. Deluxe Room</li>
-                  <li>5. 2BHK Option</li>
-                  <br></br>
-                  * Shared/Full Time Personal Caregiver available at an extra cost
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+        {/* Trust indicators moved to ServicesSection */}
 
         {/* Section Header */}
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-sage-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-sage-900 mb-6">
             Stories of Joy & Comfort
           </h2>
-          <p className="text-xl text-sage-700 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-sage-700 max-w-3xl mx-auto leading-relaxed">
             Hear from families who have entrusted us with their most precious relationships.
           </p>
         </div>
