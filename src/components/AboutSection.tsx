@@ -20,7 +20,7 @@ const AboutSection = () => {
               Every corner is created to ensure comfort, accessibility, and emotional well-being.
             </p>
 
-            <p className="text-xl text-sage-700 leading-relaxed">
+            <p className="text-lg text-sage-700 leading-relaxed">
               We focus on creating an environment that feels like home, while ensuring the professional 
               care and attention needed for healthy, happy living. 
               With dedicated staff, balanced routines, and warm surroundings, 
